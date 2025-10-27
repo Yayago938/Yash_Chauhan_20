@@ -1,0 +1,108 @@
+*{
+    background-color: aliceblue;
+    color:rgb(6, 6, 143);
+}
+button {
+    width: 90vw;
+    height: fit;
+    background-color: rgb(183, 247, 225);
+    color: rgb(6, 6, 143);
+    box-shadow: 1px 1px 3px 1px rgb(43 43 139);
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+.search {
+    align-self: center;
+    text-align: center;
+    display:flex;
+    justify-content: space-between;
+    width:90vw;
+    margin: auto;
+   color:rgb(6, 6, 143);
+}
+.search label{
+    font-size: 3vh;
+}
+
+.options {
+    display: flex;
+    gap: 2vw;
+    text-align:center;
+    align-self: center;
+    width: 90vw;
+    height: fit-content;
+    margin: auto;
+    justify-content:space-around;
+}
+
+.optbtn {
+    border-radius: 40px;
+    width: fit-content;
+    height: 5vh;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 2vh;
+    background-color: rgb(183, 247, 225);
+    color: rgb(6, 6, 143);
+    cursor:pointer;
+}
+
+.s {
+    background-color: rgb(183, 247, 225);
+    color: rgb(6, 6, 143);
+    border-radius: 40px;
+    width: fit-content;
+    height: 5vh;
+    cursor: pointer;
+}
+.title{
+    font-size: 2em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(19, 19, 143);
+    font-weight: bold;
+}
+.studbtn {
+  display: block;           
+  background-color: rgb(199, 233, 245);                
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  color:rgb(6, 6, 143)
+}
+
+.studbtn h1,
+.studbtn h2 {
+  /* margin: 0; Remove default spacing of headings */
+  background: transparent; /* Ensure headings don't override */
+}
+#submitStudent{
+align-self: center;
+margin:auto;
+width:30vw;
+background-color: rgb(183, 247, 225);
+    color: rgb(6, 6, 143);
+    box-shadow: 1px 1px 3px 1px rgb(43 43 139);
+    border-radius: 40px;
+    height:5vh;
+    width:10em;
+}
+#submitS{
+    align-self: center;
+    margin: auto;
+    width: 30vw;
+    background-color: rgb(183, 247, 225);
+    color: rgb(6, 6, 143);
+    box-shadow: 1px 1px 3px 1px rgb(43 43 139);
+    border-radius: 40px;
+    height: 5vh;
+    width: 10em;
+}
